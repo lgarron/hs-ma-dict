@@ -5,7 +5,7 @@
 - Creating lists
   - `[1..n]` <-> `Range[n]`
   - `[m, m+k..n]` <-> `Range[m, n, k]`
-  - `[f[x] | x <- list]` <-> `Table[f[x], {x, list}]`
+  - `[f x | x <- list]` <-> `Table[f[x], {x, list}]`
 - List operations
   - `head` <-> `First`
   - `tail` <-> `Rest`
