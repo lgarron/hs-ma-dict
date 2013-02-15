@@ -33,7 +33,7 @@
 - Folding
   - `foldl f z list` <-> `Fold[f, z, list]`
   - `scanl f z list` <-> `FoldList[f, z, list]`
-  - `take n $ iterate f list` <-> ``
+  - `take (n + 1) $ iterate f list` <-> `NestList[list, n]`
 - Grouping
   - `group` <-> `Split`
   - `groupBy` <-> `SplitBy`
