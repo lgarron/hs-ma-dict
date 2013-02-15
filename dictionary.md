@@ -68,4 +68,4 @@ Although actual currying isn't that useful, this is sometimes a useful idiom:
 
     Uncurry[f_][x_, y___] := f[x][y];
     f[x_][y_] := x + y;
-    Uncurry[f][2, 3]; (* Uses f from the curried definition example. *)
+    Uncurry[f][2, 3]
