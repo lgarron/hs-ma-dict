@@ -11,7 +11,7 @@
   - `tail` <-> `Rest`
   - `init` <-> `Most`
   - `last` <-> `Last`
-  - `list !! n` <-> `list[[n]]` (list indexing)
+  - `list !! n` <-> `list[[n+1]]` (list indexing)
   - `take n list` <-> `Take[list, n]`
   - `takeWhile f list` <-> `TakeWhile[list, f]`
   - `drop n list` <-> `Drop[list, n]`
