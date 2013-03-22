@@ -21,7 +21,7 @@
   - `(++)` <-> `Join`
   - `filter f list` <-> `Select[list, f]`
   - `map f list` <-> `f /@ map` (or `Map[f, list]`)
-  - `zipWith f x y` <-> `Inner[f, x, y, List]`
+  - `zipWith f x y` <-> `Inner[f, x, y, List]` or `MapThread[f, {x, y}]`
   - `concat lists` <-> `Flatten[lists, 1]`
   - `Data.List.intersperse list x` <-> `Riffle[list, x]`
   - `nub` <-> `DeleteDuplicates` (or `Union`)
